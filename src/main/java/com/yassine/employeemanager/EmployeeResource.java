@@ -47,6 +47,4 @@ public class EmployeeResource {
         employeeService.deleteEmployee(id);
         return new ResponseEntity<>(HttpStatus.OK);
     }
-
-
 }
